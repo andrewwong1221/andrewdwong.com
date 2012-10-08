@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>{% if page.title %} {{ page.title }} | {% endif %} Andrew D. Wong</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1>Andrew D. Wong</h1>
+        </header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+        </nav>
+        {{ content }}
+        <footer>
+            <p>&copy; Andrew D. Wong 2012</p>
+        </footer>
+    </div>
+
+</html>
+
+
